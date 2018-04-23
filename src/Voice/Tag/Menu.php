@@ -1,6 +1,6 @@
 <?php
 
-namespace Mobtexting\Voice\Widget;
+namespace Mobtexting\Voice\Tag;
 
 use Exception;
 use Mobtexting\Voice\Voice;

@@ -50,7 +50,7 @@ class Voice
     
     public function append($verb, $args = [])
     {
-        $widget = 'Mobtexting\\Voice\\Widget\\'.ucfirst(strtolower($verb));
+        $widget = 'Mobtexting\\Voice\\Tag\\'.ucfirst(strtolower($verb));
 
         $widget = new $widget(...$args);
 
